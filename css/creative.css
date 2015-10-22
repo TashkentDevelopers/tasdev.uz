@@ -121,6 +121,17 @@ aside {
     background-color: transparent;
 }
 
+@media(max-width:480px) {
+   .navbar-default .navbar-header .navbar-brand{
+    padding: 15px 0 15px 10px;
+
+   }
+
+   .navbar-default .navbar-header .navbar-toggle{
+    margin-right: 10px;
+   }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -209,6 +220,11 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
+}
+
+header .header-content .header-content-inner img.logo {
+    width: 100%;
+    max-width: 711px;
 }
 
 @media(min-width:768px) {
